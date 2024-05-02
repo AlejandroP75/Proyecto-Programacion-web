@@ -261,6 +261,7 @@ hr {border: 0;
     iframe {
         width: 500px;
     }
+
 }
 
 @media screen and (min-width:767px) and (max-width:1023px) {
@@ -285,8 +286,8 @@ hr {border: 0;
         list-style: none;
         margin: 0;
     }
-
-    ul a {
+    
+    .mp {
         text-decoration: none;
         margin-right: 10px;
         list-style: none;
@@ -297,7 +298,7 @@ hr {border: 0;
         font-size: 20px;
     }
 
-    ul a:hover {
+    .mp:hover {
         color: #E53E1E;
     }
 
@@ -379,38 +380,53 @@ hr {border: 0;
     footer {
         background-color: #243260;
         color: white;
-        padding: 5px 15px 5px 15px;
-    }
-
-    footer h1 {
-        color: #E53E1E;
-    }
-
-    div h2 {
-        font-size: 20px;
-    }
-
-    .rds {
+        padding: 30px 150px 0px 150px;
         display: flex;
-        align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 
-    .mini {
-        display: flex;
+    .container1 {
+        width: 45%;
         justify-content: center;
-        align-items: center;
-        width: 170px;
-        height: 50px;
     }
 
-    .enlrds {
+    .container2 {
+        width: 45%;
+        justify-content: center;
+    }
+
+    .tit_foot {
+        font-size: 20px;
+        font-weight: normal;
+        border-bottom: 2px solid red;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+
+    .accesos_rapidos {
+        padding-top: 5px;
+        font-weight: lighter;
+    }
+
+    .ar {
         text-decoration: none;
         color: white;
     }
 
-    .imgrds {
+    .redes_sociales {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 10px;
+    }
+
+    .img_rs {
         width: 50px;
+        height: 50px;
+    }
+
+    .dr {
+        font-size: 15px;
+        font-weight: lighter;
     }
 
     /*Nosotros*/
@@ -533,7 +549,7 @@ hr {border: 0;
         background-color: #243260;
     }
 
-    ul a {
+    .mp {
         text-decoration: none;
         list-style: none;
         color: white;
@@ -541,7 +557,7 @@ hr {border: 0;
         font-size: 15px;
     }
 
-    ul a:hover {
+    .mp:hover {
         color: #E53E1E;
     }
 
@@ -599,6 +615,7 @@ hr {border: 0;
         width: 20%;
     }
 
+
     .clientes {
         display: flex;
         flex-direction: column;
@@ -621,38 +638,55 @@ hr {border: 0;
     footer {
         background-color: #243260;
         color: white;
-        padding: 5px 15px 5px 15px;
-    }
-
-    footer h1 {
-        color: #E53E1E;
-        font-size: 20px;
-    }
-
-    div h2 {
-        font-size: 17px;
-    }
-
-    .rds {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .mini {
-        display: flex;
+        padding: 30px 50px 0px 50px;
         justify-content: center;
         align-items: center;
-        margin-bottom: 10px;
     }
 
-    .enlrds {
+    .container1 {
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+
+    .container2 {
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+
+    .tit_foot {
+        font-size: 20px;
+        font-weight: normal;
+        border-bottom: 2px solid red;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+
+    .accesos_rapidos {
+        padding-top: 5px;
+        font-weight: lighter;
+    }
+
+    .ar {
         text-decoration: none;
         color: white;
     }
 
-    .imgrds {
+    .redes_sociales {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 10px;
+    }
+
+    .img_rs {
         width: 50px;
+        height: 50px;
+    }
+
+    .dr {
+        font-size: 15px;
+        font-weight: lighter;
     }
 
     /*Nosotros*/
