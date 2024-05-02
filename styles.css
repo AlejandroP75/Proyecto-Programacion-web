@@ -80,8 +80,9 @@ hr {border: 0;
     }
 
     .Qsomos {
-        margin-top: 45px;
-        margin-bottom: 45px;
+        padding-top: 45px;
+        padding-bottom: 45px;
+        background-color: #f5f5f5;
     }
 
     .Qsom {
@@ -208,10 +209,21 @@ hr {border: 0;
 
     /*Servicios*/
 
-    .misvis {
+    .mis {
         display: flex;
         justify-content: space-around;
         align-items: center;
+        background-color: #f5f5f5;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .vis {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     .textomisvis {
@@ -226,11 +238,19 @@ hr {border: 0;
         border-radius: 100%;
     }
 
-    .serv {
+    .serv1 {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin: 100px 0px 100px 0px;
+        padding: 50px 0px 50px 0px;
+    }
+
+    .serv2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 50px 0px 50px 0px;
+        background-color: #f5f5f5;
     }
 
     .textoserv {
