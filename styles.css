@@ -86,14 +86,14 @@ hr {border: 0;
 
     .Qsom {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 
     .cajatexto {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 40%;
+        width: 50%;
     }
 
     .titulos {
